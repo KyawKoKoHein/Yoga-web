@@ -1,0 +1,79 @@
+.card-wrapper{
+    display: flex;
+    gap: 3rem;
+}
+
+.card-wrapper > .card{
+    height: 35rem;
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+/* Our Classes */
+
+.our-classes .card-wrapper .card{
+    /* border: 2px solid red; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #d9dee1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.our-classes .card-wrapper .card .card-img{
+    height: 14rem;
+    /* background-color: green; */
+
+}
+
+                                                        
+
+.our-classes .card-wrapper .card:nth-child(1) .card-img{
+    background: firebrick url(../../img/c3aed358-3966-4a68-853d-f944a74e662e.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.our-classes .card-wrapper .card:nth-child(2) .card-img{
+    background: firebrick url(../../img/class_06.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.our-classes .card-wrapper .card:nth-child(3) .card-img{
+    background: firebrick url(../../img/class_08.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.our-classes .card-wrapper .card:nth-child(4) .card-img{
+    background: firebrick url(../../img/class_14.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.our-classes .card-wrapper .card .card-body  h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.our-classes .card-wrapper .card .card-body  small{
+    font-size: 1.5rem;
+    color: var(--brand-color);
+    display: block;
+    margin-bottom: 2rem;
+}
+
+/* Our products */
+
+.our-products .card-wrapper .card p{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+
+
+.our-products .card-wrapper .card img {
+    /* border: 4px solid green; */
+    width: 100%;
+}
